@@ -2,7 +2,7 @@
 
 ### Team members
 
-* (responsible for xxx)
+* Tomáš Dočkal (responsible for Vivado project structure and code)
 * Member 2 (responsible for xxx)
 * Member 3 (responsible for xxx)
 * Samuel Vadovič (responsible for display of characters and numbers 7-segment display, readme file )
