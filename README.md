@@ -1,18 +1,18 @@
-# Morse code reciever
+# DE1-Project Morse code reciever 
 
 ### Team members
 
-* Member 1(responsible for xxx)
+* (responsible for xxx)
 * Member 2 (responsible for xxx)
 * Member 3 (responsible for xxx)
-* Member 4 (responsible for xxx)
+* Samuel Vadovič (responsible for display of characters and numbers 7-segment display, readme file )
 
-### Table of contents
+### Table of contentson 
 
 * [Project objectives](#objectives)
 * [Hardware description](#hardware)
 * [VHDL modules description and simulations](#modules)
-* [TOP module description and simulations](#top)
+* [TOP module description and simulations](#top) 
 * [Video](#video)
 * [References](#references)
 
