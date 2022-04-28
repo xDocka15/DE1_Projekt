@@ -124,7 +124,8 @@ Application of 7bit d flip-flop.
 
 ### top.vhd
 
-
+Top module connects our whole project together, it declares every port we need between other modules and therefore makes our programme fully functioning and possible.<br>
+<br/>
 [Link to top.vhd](https://github.com/xDocka15/DE1_Projekt/blob/main/ProjectDSTB/top.vhd)
 ### TB_top.vhd
 In tb_top we simulate morse code  ("-.. ."), character output is ("d E")  
