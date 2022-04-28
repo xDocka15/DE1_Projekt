@@ -4,7 +4,7 @@
 
 * Tomáš Dočkal (responsible for Vivado project structure and converting input signals to dots and dashes)
 * Minh Hieu Tran (responsible top.vhd and decoder.vhd)
-* Vojtěch Vídenský (responsible for shift register, video)
+* Vojtěch Vídenský (responsible for sending data from decoder to 7-segment display, video)
 * Samuel Vadovič (responsible for display of characters and numbers 7-segment display, readme file )
 
 ### Table of contentson 
