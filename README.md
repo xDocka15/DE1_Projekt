@@ -2,7 +2,7 @@
 
 ### Team members
 
-* Tomáš Dočkal (responsible for Vivado project structure and code)
+* Tomáš Dočkal (responsible for Vivado project structure and converting input signals to dots and dashes)
 * Minh Hieu Tran (responsible top.vhd and decoder.vhd)
 * Member 3 (responsible for xxx)
 * Samuel Vadovič (responsible for display of characters and numbers 7-segment display, readme file )
