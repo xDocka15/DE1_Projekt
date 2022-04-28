@@ -1,0 +1,16 @@
+0.7
+2020.1
+May 27 2020
+20:09:33
+F:/DE1/project_f2/project_f1.srcs/sim_1/new/tb_top.vhd,1651146040,vhdl,,,,tb_top,,,,,,,,
+F:/DE1/project_f2/project_f1.srcs/sources_1/new/clock_enable.vhd,1650997932,vhdl,F:/DE1/project_f2/project_f1.srcs/sources_1/new/display_control.vhd;F:/DE1/project_f2/project_f1.srcs/sources_1/new/top.vhd,,,clock_enable,,,,,,,,
+F:/DE1/project_f2/project_f1.srcs/sources_1/new/counter.vhd,1651064712,vhdl,F:/DE1/project_f2/project_f1.srcs/sources_1/new/display_control.vhd;F:/DE1/project_f2/project_f1.srcs/sources_1/new/top.vhd,,,counter_time,,,,,,,,
+F:/DE1/project_f2/project_f1.srcs/sources_1/new/d_ff_rst.vhd,1651000414,vhdl,F:/DE1/project_f2/project_f1.srcs/sources_1/new/shift_register.vhd,,,d_ff_rst,,,,,,,,
+F:/DE1/project_f2/project_f1.srcs/sources_1/new/d_ff_rst_7bit.vhd,1651000394,vhdl,F:/DE1/project_f2/project_f1.srcs/sources_1/new/shift_register_7bit.vhd,,,d_ff_rst_7bit,,,,,,,,
+F:/DE1/project_f2/project_f1.srcs/sources_1/new/decoder.vhd,1651063542,vhdl,F:/DE1/project_f2/project_f1.srcs/sources_1/new/top.vhd,,,decoder,,,,,,,,
+F:/DE1/project_f2/project_f1.srcs/sources_1/new/display_control.vhd,1651000844,vhdl,F:/DE1/project_f2/project_f1.srcs/sources_1/new/top.vhd,,,display_control,,,,,,,,
+F:/DE1/project_f2/project_f1.srcs/sources_1/new/edge_detector.vhd,1650999312,vhdl,F:/DE1/project_f2/project_f1.srcs/sources_1/new/top.vhd,,,edge_detector,,,,,,,,
+F:/DE1/project_f2/project_f1.srcs/sources_1/new/hex_7seg.vhd,1651062818,vhdl,F:/DE1/project_f2/project_f1.srcs/sources_1/new/top.vhd,,,bin_7seg,,,,,,,,
+F:/DE1/project_f2/project_f1.srcs/sources_1/new/shift_register.vhd,1651000446,vhdl,F:/DE1/project_f2/project_f1.srcs/sources_1/new/top.vhd,,,shift_register,,,,,,,,
+F:/DE1/project_f2/project_f1.srcs/sources_1/new/shift_register_7bit.vhd,1651000360,vhdl,F:/DE1/project_f2/project_f1.srcs/sources_1/new/top.vhd,,,shift_register_7bit,,,,,,,,
+F:/DE1/project_f2/project_f1.srcs/sources_1/new/top.vhd,1651145086,vhdl,F:/DE1/project_f2/project_f1.srcs/sim_1/new/tb_top.vhd,,,top,,,,,,,,

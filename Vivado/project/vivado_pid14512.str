@@ -1,0 +1,431 @@
+/*
+
+Xilinx Vivado v2020.1 (64-bit) [Major: 2020, Minor: 1]
+SW Build: 2902540 on Wed May 27 19:54:49 MDT 2020
+IP Build: 2902112 on Wed May 27 22:43:36 MDT 2020
+
+Process ID (PID): 14512
+License: Customer
+
+Current time: 	Wed Apr 27 18:46:16 CEST 2022
+Time zone: 	Central European Standard Time (Europe/Prague)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 4
+
+Screen size: 1920x1080
+Screen resolution (DPI): 100
+Available screens: 1
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	D:/Documents/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4
+Java executable location: 	D:/Documents/Xilinx/Vivado/2020.1/tps/win64/jre9.0.4/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	Vojtìch Vídenský
+User home directory: C:/Users/Vojtìch Vídenský
+User working directory: D:/Downloads/project_f2
+User country: 	CZ
+User language: 	cs
+User locale: 	cs_CZ
+
+RDI_BASEROOT: D:/Documents/Xilinx/Vivado
+HDI_APPROOT: D:/Documents/Xilinx/Vivado/2020.1
+RDI_DATADIR: D:/Documents/Xilinx/Vivado/2020.1/data
+RDI_BINDIR: D:/Documents/Xilinx/Vivado/2020.1/bin
+
+Vivado preferences file location: C:/Users/Vojtìch Vídenský/AppData/Roaming/Xilinx/Vivado/2020.1/vivado.xml
+Vivado preferences directory: C:/Users/Vojtìch Vídenský/AppData/Roaming/Xilinx/Vivado/2020.1/
+Vivado layouts directory: C:/Users/Vojtìch Vídenský/AppData/Roaming/Xilinx/Vivado/2020.1/data/layouts
+PlanAhead jar file location: 	D:/Documents/Xilinx/Vivado/2020.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/Downloads/project_f2/vivado.log
+Vivado journal file location: 	D:/Downloads/project_f2/vivado.jou
+Engine tmp dir: 	D:/Downloads/project_f2/.Xil/Vivado-14512-DESKTOP-79PEB2N
+
+Xilinx Environment Variables
+----------------------------
+XILINX: D:/Documents/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_DSP: D:/Documents/Xilinx/Vivado/2020.1/ids_lite/ISE
+XILINX_PLANAHEAD: D:/Documents/Xilinx/Vivado/2020.1
+XILINX_VIVADO: D:/Documents/Xilinx/Vivado/2020.1
+XILINX_VIVADO_HLS: D:/Documents/Xilinx/Vivado/2020.1
+
+
+GUI allocated memory:	154 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 1,234 MB
+
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bz (cs):  Open Project : addNotify
+// Opening Vivado Project: D:\Downloads\project_f2\project_f1.xpr. Version: Vivado v2020.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/Downloads/project_f2/project_f1.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,234 MB. GUI used memory: 52 MB. Current time: 4/27/22, 6:46:17 PM CEST
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: RUN_STATUS_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/Downloads/project_f2/project_f1.xpr 
+// Tcl Message: INFO: [Project 1-313] Project file moved from 'D:/Documents/230199/project_f1' since last save. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 69 MB (+69583kb) [00:00:22]
+// [Engine Memory]: 1,234 MB (+1142184kb) [00:00:22]
+// [GUI Memory]: 89 MB (+17546kb) [00:00:23]
+// [GUI Memory]: 111 MB (+18176kb) [00:00:25]
+// WARNING: HSwingWorker (Update Runs Swing Worker) is taking 1254 ms. Increasing delay to 3000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  9008 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'D:/Documents/Xilinx/Vivado/2020.1/data/ip'. 
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:14 . Memory (MB): peak = 1284.352 ; gain = 0.000 
+// Project name: project_f1; location: D:/Downloads/project_f2; part: xc7a50ticsg324-1L
+dismissDialog("Open Project"); // bz (cs)
+// Tcl Command: 'rdi::info_commands {device::*}'
+// Tcl Command: 'rdi::info_commands {debug::*}'
+// Tcl Command: 'rdi::info_commands {*}'
+// [GUI Memory]: 118 MB (+2086kb) [00:00:36]
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 49 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1); // B (F, cs)
+// [GUI Memory]: 134 MB (+10672kb) [00:01:34]
+// Elapsed time: 26 seconds
+collapseTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (J, cs)
+expandTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design]", 12); // u (J, cs)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, RTL Analysis, Open Elaborated Design, Schematic]", 15, false); // u (J, cs)
+// A (cs): Elaborate Design: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (A)
+// bz (cs):  Open Elaborated Design : addNotify
+dismissDialog("Elaborate Design"); // A (cs)
+// Tcl Message: synth_design -rtl -name rtl_1 
+// Tcl Message: Command: synth_design -rtl -name rtl_1 Starting synth_design Using part: xc7a50ticsg324-1L Top: top 
+// TclEventType: ELABORATE_START
+// TclEventType: ELABORATE_FINISH
+// HMemoryUtils.trashcanNow. Engine heap size: 1,296 MB. GUI used memory: 74 MB. Current time: 4/27/22, 6:48:07 PM CEST
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: POWER_CNS_STALE
+// TclEventType: POWER_REPORT_STALE
+// TclEventType: SDC_CONSTRAINT_ADD
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// [Engine Memory]: 1,307 MB (+12164kb) [00:02:09]
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,307 MB. GUI used memory: 73 MB. Current time: 4/27/22, 6:48:08 PM CEST
+// DeviceModel: Load Xgds SwingWorker Join Forever elapsed time: 0.5s
+// [Engine Memory]: 1,382 MB (+9619kb) [00:02:11]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [GUI Memory]: 150 MB (+8941kb) [00:02:13]
+// Schematic: addNotify
+// WARNING: HEventQueue.dispatchEvent() is taking  3249 ms.
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Device 21-403] Loading part xc7a50ticsg324-1L 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1284.352 ; gain = 0.000 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: INFO: [Synth 8-638] synthesizing module 'top' [D:/Downloads/project_f2/project_f1.srcs/sources_1/new/top.vhd:27] INFO: [Synth 8-638] synthesizing module 'clock_enable' [D:/Downloads/project_f2/project_f1.srcs/sources_1/new/clock_enable.vhd:19] 
+// Tcl Message: 	Parameter g_MAX bound to: 8750000 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'clock_enable' (1#1) [D:/Downloads/project_f2/project_f1.srcs/sources_1/new/clock_enable.vhd:19] INFO: [Synth 8-638] synthesizing module 'counter_time' [D:/Downloads/project_f2/project_f1.srcs/sources_1/new/counter.vhd:21] 
+// Tcl Message: 	Parameter g_CNT_WIDTH bound to: 4 - type: integer  
+// Tcl Message: 	Parameter g_MAX bound to: 30000 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'clock_enable__parameterized0' (9#1) [D:/Downloads/project_f2/project_f1.srcs/sources_1/new/clock_enable.vhd:19] INFO: [Synth 8-638] synthesizing module 'counter_time__parameterized0' [D:/Downloads/project_f2/project_f1.srcs/sources_1/new/counter.vhd:21] 
+// Tcl Message: 	Parameter g_CNT_WIDTH bound to: 3 - type: integer  
+// Tcl Message: INFO: [Synth 8-256] done synthesizing module 'counter_time__parameterized0' (9#1) [D:/Downloads/project_f2/project_f1.srcs/sources_1/new/counter.vhd:21] INFO: [Synth 8-256] done synthesizing module 'display_control' (10#1) [D:/Downloads/project_f2/project_f1.srcs/sources_1/new/display_control.vhd:23] INFO: [Synth 8-256] done synthesizing module 'top' (11#1) [D:/Downloads/project_f2/project_f1.srcs/sources_1/new/top.vhd:27] 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1316.113 ; gain = 31.762 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: --------------------------------------------------------------------------------- Start Handling Custom Attributes --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1316.113 ; gain = 31.762 
+// Tcl Message: --------------------------------------------------------------------------------- --------------------------------------------------------------------------------- 
+// Tcl Message: Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:08 . Memory (MB): peak = 1316.113 ; gain = 31.762 
+// Tcl Message: --------------------------------------------------------------------------------- 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 1316.113 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message:  Processing XDC Constraints Initializing timing engine Parsing XDC File [D:/Downloads/project_f2/project_f1.srcs/constrs_1/new/nexys-a7-50t.xdc] Finished Parsing XDC File [D:/Downloads/project_f2/project_f1.srcs/constrs_1/new/nexys-a7-50t.xdc] Completed Processing XDC Constraints  
+// Tcl Message: INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s). 
+// Tcl Message: Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1429.168 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: RTL Elaboration Complete:  : Time (s): cpu = 00:00:20 ; elapsed = 00:00:15 . Memory (MB): peak = 1433.758 ; gain = 149.406 
+// Tcl Message: 30 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered. synth_design completed successfully 
+// Tcl Message: synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1433.758 ; gain = 149.406 
+// Run Command: PAResourceCommand.PACommandNames_SCHEMATIC
+// Schematic: addNotify
+// Elapsed time: 24 seconds
+dismissDialog("Open Elaborated Design"); // bz (cs)
+// Elapsed time: 116 seconds
+selectTab((HResource) null, (HResource) null, "Sources", 0); // aL (aI, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), decoder : decoder(behavioral) (decoder.vhd)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), decoder : decoder(behavioral) (decoder.vhd)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), counter_time : counter_time(behavioral) (counter.vhd)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), counter_time : counter_time(behavioral) (counter.vhd)]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd)]", 1, true); // B (F, cs) - Node
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 3); // m (l, cs)
+closeView(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // f
+// [GUI Memory]: 159 MB (+1590kb) [00:05:33]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 101 MB. Current time: 4/27/22, 7:18:13 PM CEST
+// WARNING: HEventQueue.dispatchEvent() is taking  2737 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 92 MB. Current time: 4/27/22, 7:48:15 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 91 MB. Current time: 4/27/22, 8:18:16 PM CEST
+// Elapsed time: 5941 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Schematic", 1); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 91 MB. Current time: 4/27/22, 8:48:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 92 MB. Current time: 4/27/22, 9:18:16 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 91 MB. Current time: 4/27/22, 9:48:17 PM CEST
+// Elapsed time: 5011 seconds
+floatFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aA (aL, cs)
+// PAResourceOtoP.PAViews_SCHEMATIC: Schematic: float view
+maximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aA (aL, aN)
+// PAPropertyPanels.initPanels (s_btnc__0) elapsed time: 0.3s
+// Elapsed time: 875 seconds
+selectButton(PAResourceCommand.PACommandNames_ZOOM_FIT, "Schematic_zoom_fit"); // E (g, aN)
+// Run Command: PAResourceCommand.PACommandNames_ZOOM_FIT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 93 MB. Current time: 4/27/22, 10:18:17 PM CEST
+// WARNING: HEventQueue.dispatchEvent() is taking  36990860 ms.
+// WARNING: HTimer (ActiveMsgMonitor Process Messages Timer) is taking 320ms to process. Increasing delay to 2000 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1078 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 103 MB. Current time: 4/28/22, 9:03:08 AM CEST
+// WARNING: HSwingWorker (Refresh Filesets Swing Worker) is taking 36992998 ms. Increasing delay to 110978994 ms.
+// Elapsed time: 39445 seconds
+unMaximizeFrame(PAResourceOtoP.PAViews_SCHEMATIC, "Schematic"); // aA (aL, aN)
+// Elapsed time: 81 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 11); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, nexys-a7-50t.xdc]", 13, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, nexys-a7-50t.xdc]", 13, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 1478 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), counter_time : counter_time(behavioral) (counter.vhd)]", 3, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), counter_time : counter_time(behavioral) (counter.vhd)]", 3, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), decoder : decoder(behavioral) (decoder.vhd)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), decoder : decoder(behavioral) (decoder.vhd)]", 4, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), decoder : decoder(behavioral) (decoder.vhd)]", 4, false, false, false, false, false, true); // B (F, cs) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 91 MB. Current time: 4/28/22, 9:33:05 AM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 91 MB. Current time: 4/28/22, 10:03:05 AM CEST
+// Elapsed time: 2940 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 95 MB. Current time: 4/28/22, 10:33:06 AM CEST
+// PAPropertyPanels.initPanels (display_control.vhd) elapsed time: 0.3s
+// Elapsed time: 1750 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), display_control0 : display_control(Behavioral) (display_control.vhd)]", 10, true); // B (F, cs) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), display_control0 : display_control(Behavioral) (display_control.vhd)]", 10); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), display_control0 : display_control(Behavioral) (display_control.vhd)]", 10, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), display_control0 : display_control(Behavioral) (display_control.vhd)]", 10, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// Elapsed time: 402 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), shift_reg_5x7bit : shift_register_7bit(Behavioral) (shift_register_7bit.vhd)]", 8); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), shift_reg_5x7bit : shift_register_7bit(Behavioral) (shift_register_7bit.vhd)]", 8, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, top(Behavioral) (top.vhd), shift_reg_5x7bit : shift_register_7bit(Behavioral) (shift_register_7bit.vhd)]", 8, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 95 MB. Current time: 4/28/22, 11:03:06 AM CEST
+// Elapsed time: 2119 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder.vhd", 2); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.vhd", 3); // m (l, cs)
+// Elapsed time: 28 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder.vhd", 2); // m (l, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 94 MB. Current time: 4/28/22, 11:33:06 AM CEST
+// Elapsed time: 50 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.vhd", 3); // m (l, cs)
+// Elapsed time: 48 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder.vhd", 2); // m (l, cs)
+// Elapsed time: 18 seconds
+selectCodeEditor("decoder.vhd", 300, 92); // bP (w, cs)
+// Elapsed time: 155 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "counter.vhd", 3); // m (l, cs)
+// Elapsed time: 59 seconds
+selectCodeEditor("counter.vhd", 26, 277); // bP (w, cs)
+// Elapsed time: 13 seconds
+selectCodeEditor("counter.vhd", 49, 312); // bP (w, cs)
+// Elapsed time: 80 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "decoder.vhd", 2); // m (l, cs)
+// Elapsed time: 47 seconds
+selectCodeEditor("decoder.vhd", 37, 312); // bP (w, cs)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 92 MB. Current time: 4/28/22, 12:03:07 PM CEST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 92 MB. Current time: 4/28/22, 12:33:07 PM CEST
+// WARNING: HEventQueue.dispatchEvent() is taking  1253531 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,427 MB. GUI used memory: 92 MB. Current time: 4/28/22, 1:03:09 PM CEST
+// Elapsed time: 5181 seconds
+selectButton(PAResourceQtoS.SchematicView_REGENERATE, "Schematic_refresh"); // E (g, aN)
+// Elapsed time: 29 seconds
+selectButton(PAResourceQtoS.SchematicView_REGENERATE, "Schematic_refresh"); // E (g, aN)
+// Elapsed time: 22 seconds
+selectButton(PAResourceQtoS.SchematicView_REGENERATE, "Schematic_refresh"); // E (g, aN)
+// Elapsed time: 332 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (J, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Downloads/project_f2/project_f1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design 
+// Tcl Message: INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Downloads/project_f2/project_f1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj tb_top_vhdl.prj" 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:06 . Memory (MB): peak = 1451.012 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '6' seconds INFO: [USF-XSim-99] Step results log file:'D:/Downloads/project_f2/project_f1.sim/sim_1/behav/xsim/xvhdl.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/Downloads/project_f2/project_f1.sim/sim_1/behav/xsim/xvhdl.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:01 ; elapsed = 00:00:08 . Memory (MB): peak = 1451.012 ; gain = 0.000 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 14 seconds
+// Elapsed time: 14 seconds
+selectButton("OptionPane.button", "OK"); // JButton (v, B)
+// a (cs): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OPEN_MESSAGES_VIEW, "Open Messages View"); // a (a)
+// Run Command: PAResourceCommand.PACommandNames_MESSAGE_WINDOW
+dismissDialog("Critical Messages"); // a (cs)
+// Elapsed time: 135 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 14, true); // B (F, cs) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 14); // B (F, cs)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 15); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_top(testbench) (tb_top.vhd)]", 16, true); // B (F, cs) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, tb_top(testbench) (tb_top.vhd)]", 16, true, false, false, false, false, true); // B (F, cs) - Double Click - Node
+selectCodeEditor("tb_top.vhd", 157, 207); // bP (w, cs)
+// Elapsed time: 17 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // m (l, cs)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_top.vhd", 7); // m (l, cs)
+// Elapsed time: 30 seconds
+selectCodeEditor("tb_top.vhd", 79, 231); // bP (w, cs)
+// Elapsed time: 25 seconds
+selectCodeEditor("tb_top.vhd", 251, 380); // bP (w, cs)
+// Elapsed time: 34 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "top.vhd", 1); // m (l, cs)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_top.vhd", 7); // m (l, cs)
+selectCodeEditor("tb_top.vhd", 238, 416); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 234, 403); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 94, 399); // bP (w, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, nexys-a7-50t.xdc]", 13, false); // B (F, cs)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, nexys-a7-50t.xdc]", 13, false, false, false, false, false, true); // B (F, cs) - Double Click
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "tb_top.vhd", 7); // m (l, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 69 seconds
+selectCodeEditor("tb_top.vhd", 274, 150); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 280, 172); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 195, 296); // bP (w, cs)
+// Elapsed time: 11 seconds
+selectCodeEditor("tb_top.vhd", 266, 166); // bP (w, cs)
+typeControlKey((HResource) null, "tb_top.vhd", 'c'); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 274, 161); // bP (w, cs)
+typeControlKey((HResource) null, "tb_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 58, 170); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 122, 181); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 268, 176); // bP (w, cs)
+typeControlKey((HResource) null, "tb_top.vhd", 'v'); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 59, 193); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 120, 195); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 99, 179); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 291, 175); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 799, 124); // bP (w, cs)
+selectCodeEditor("tb_top.vhd", 58, 208); // bP (w, cs)
+// Elapsed time: 20 seconds
+selectCodeEditor("tb_top.vhd", 230, 224); // bP (w, cs)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // E (g, cs)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (J, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ai (ao, cs)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cs):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: Command: launch_simulation  
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/Downloads/project_f2/project_f1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'tb_top' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/Downloads/project_f2/project_f1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xvhdl --incr --relax -prj tb_top_vhdl.prj" 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/Downloads/project_f2/project_f1.sim/sim_1/behav/xsim' 
+// Tcl Message: "xelab -wto e2b231d45e1e409dad8b7a383df510f6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log" 
+// Tcl Message: Vivado Simulator 2020.1 Copyright 1986-1999, 2001-2020 Xilinx, Inc. All Rights Reserved. Running: D:/Documents/Xilinx/Vivado/2020.1/bin/unwrapped/win64.o/xelab.exe -wto e2b231d45e1e409dad8b7a383df510f6 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L secureip --snapshot tb_top_behav xil_defaultlib.tb_top -log elaborate.log  Using 2 slave threads. 
+// Tcl Message: Built simulation snapshot tb_top_behav 
+// Tcl Message:  ****** Webtalk v2020.1 (64-bit)   **** SW Build 2902540 on Wed May 27 19:54:49 MDT 2020   **** IP Build 2902112 on Wed May 27 22:43:36 MDT 2020     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.  source D:/Downloads/project_f2/project_f1.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-186] 'D:/Downloads/project_f2/project_f1.sim/sim_1/behav/xsim/xsim.dir/tb_top_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Thu Apr 28 13:21:36 2022. For additional details about this file, please refer to the WebTalk help file at D:/Documents/Xilinx/Vivado/2020.1/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Thu Apr 28 13:21:36 2022... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:00 ; elapsed = 00:00:15 . Memory (MB): peak = 1464.754 ; gain = 0.000 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '16' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/Downloads/project_f2/project_f1.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "tb_top_behav -key {Behavioral:sim_1:Functional:tb_top} -tclbatch {tb_top.tcl} -view {D:/Downloads/project_f2/project_f1.srcs/sim_1/imports/project_3/tb_top_behav.wcfg} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2020.1 
+// Elapsed time: 81 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+// Tcl Message: INFO: [Common 17-41] Interrupt caught. Command should exit soon. 
+// Elapsed time: 13 seconds
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)
+selectButton(RDIResource.ProgressDialog_CANCEL, "Cancel"); // a (e)

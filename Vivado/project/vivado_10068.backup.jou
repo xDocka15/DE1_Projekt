@@ -1,0 +1,21 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Thu Apr 28 13:34:31 2022
+# Process ID: 10068
+# Current directory: F:/DE1/project_f2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent10300 F:\DE1\project_f2\project_f1.xpr
+# Log file: F:/DE1/project_f2/vivado.log
+# Journal file: F:/DE1/project_f2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project F:/DE1/project_f2/project_f1.xpr
+launch_simulation
+open_wave_config F:/DE1/project_f2/project_f1.srcs/sim_1/imports/project_3/tb_top_behav.wcfg
+source tb_top.tcl
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+save_wave_config {F:/DE1/project_f2/project_f1.srcs/sim_1/imports/project_3/tb_top_behav.wcfg}
+relaunch_sim
+relaunch_sim

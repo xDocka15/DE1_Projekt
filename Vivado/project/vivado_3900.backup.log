@@ -1,0 +1,93 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:49 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Wed Apr 27 13:44:46 2022
+# Process ID: 3900
+# Current directory: D:/Documents/230199/project_f1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3928 D:\Documents\230199\project_f1\project_f1.xpr
+# Log file: D:/Documents/230199/project_f1/vivado.log
+# Journal file: D:/Documents/230199/project_f1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/Documents/230199/project_f1/project_f1.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/APPZ/Xilinx/Vivado/2020.1/data/ip'.
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+Command: synth_design -rtl -name rtl_1
+Starting synth_design
+Using part: xc7a50ticsg324-1L
+Top: top
+INFO: [Device 21-403] Loading part xc7a50ticsg324-1L
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1427.176 ; gain = 180.629
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/top.vhd:27]
+INFO: [Synth 8-638] synthesizing module 'clock_enable' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/clock_enable.vhd:19]
+	Parameter g_MAX bound to: 100000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_enable' (1#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/clock_enable.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'counter_time' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/counter.vhd:21]
+	Parameter g_CNT_WIDTH bound to: 4 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter_time' (2#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/counter.vhd:21]
+INFO: [Synth 8-638] synthesizing module 'decoder' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/decoder.vhd:24]
+INFO: [Synth 8-256] done synthesizing module 'decoder' (3#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/decoder.vhd:24]
+INFO: [Synth 8-638] synthesizing module 'edge_detector' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/edge_detector.vhd:13]
+INFO: [Synth 8-256] done synthesizing module 'edge_detector' (4#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/edge_detector.vhd:13]
+INFO: [Synth 8-638] synthesizing module 'shift_register' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/shift_register.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'd_ff_rst' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/d_ff_rst.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'd_ff_rst' (5#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/d_ff_rst.vhd:16]
+INFO: [Synth 8-256] done synthesizing module 'shift_register' (6#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/shift_register.vhd:16]
+INFO: [Synth 8-638] synthesizing module 'shift_register_7bit' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/shift_register_7bit.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'd_ff_rst_7bit' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/d_ff_rst_7bit.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'd_ff_rst_7bit' (7#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/d_ff_rst_7bit.vhd:14]
+INFO: [Synth 8-256] done synthesizing module 'shift_register_7bit' (8#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/shift_register_7bit.vhd:22]
+INFO: [Synth 8-638] synthesizing module 'bin_7seg' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/hex_7seg.vhd:19]
+INFO: [Synth 8-256] done synthesizing module 'bin_7seg' (9#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/hex_7seg.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'display_control' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/display_control.vhd:23]
+INFO: [Synth 8-638] synthesizing module 'clock_enable__parameterized0' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/clock_enable.vhd:19]
+	Parameter g_MAX bound to: 30000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_enable__parameterized0' (9#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/clock_enable.vhd:19]
+INFO: [Synth 8-638] synthesizing module 'counter_time__parameterized0' [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/counter.vhd:21]
+	Parameter g_CNT_WIDTH bound to: 3 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'counter_time__parameterized0' (9#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/counter.vhd:21]
+INFO: [Synth 8-256] done synthesizing module 'display_control' (10#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/display_control.vhd:23]
+INFO: [Synth 8-256] done synthesizing module 'top' (11#1) [D:/Documents/230199/project_f1/project_f1.srcs/sources_1/new/top.vhd:27]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1479.488 ; gain = 232.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1479.488 ; gain = 232.941
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1479.488 ; gain = 232.941
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 1479.488 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/Documents/230199/project_f1/project_f1.srcs/constrs_1/new/nexys-a7-50t.xdc]
+WARNING: [Vivado 12-584] No ports matched 'inp_LED'. [D:/Documents/230199/project_f1/project_f1.srcs/constrs_1/new/nexys-a7-50t.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/Documents/230199/project_f1/project_f1.srcs/constrs_1/new/nexys-a7-50t.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/Documents/230199/project_f1/project_f1.srcs/constrs_1/new/nexys-a7-50t.xdc]
+Completed Processing XDC Constraints
+
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1592.820 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+RTL Elaboration Complete:  : Time (s): cpu = 00:00:13 ; elapsed = 00:00:09 . Memory (MB): peak = 1592.820 ; gain = 346.273
+30 Infos, 1 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:18 ; elapsed = 00:00:15 . Memory (MB): peak = 1592.820 ; gain = 572.316
+exit
+INFO: [Common 17-206] Exiting Vivado at Wed Apr 27 13:50:08 2022...
